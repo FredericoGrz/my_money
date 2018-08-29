@@ -15,7 +15,7 @@ BillingCycle.route('count', (req, res, next) => {
         } else {
             return res.json({ value })
         }
-    })
+    })``
 })
 
 //Export the billingcycle Model with Methods
