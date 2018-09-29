@@ -9,13 +9,13 @@ module.exports = {
         //Dir of output file
         path: __dirname + '/public',
         //Name of output file
-        file: './app.js'
+        filename: './app.js'
     },
     //Server options
     devServer: {
         //Port of server
         port: 8080,
-        //
+        //Folder where server must find the files
         contentBase: './public'
     },
     resolve: {
